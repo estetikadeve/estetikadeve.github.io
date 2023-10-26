@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="csrf-token" content="XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi" />
+    <meta name="google-site-verification" content="nJQvR61QjiN0dNH6d7lwmJBvJu6PgsD_LhZ642hbw54">
+    <meta name="facebook-domain-verification" content="uopf6k82oz98qf7913chwehemtwt5m" />
+    <meta name="title" content="Klinik Estetika">
+    <meta name="description" content="Klinik Estetika">
+    <meta name="keywords" content="klinikestetika">
+    <meta property="og:site_name" content="Klinik Estetika">
+    <meta name="twitter:site" content="@klinikestetika">
+
+    <title>Klinik Estetika dr. Affandi</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://klinikestetika.com/v2/images/favicon.svg"/>
+    <link href="https://klinikestetika.com/v2/css/app.css" rel="stylesheet">
+    <link href="https://klinikestetika.com/v2/css/style.css" rel="stylesheet">
+    <link href="https://klinikestetika.com/v2/css/slideshow.css" rel="stylesheet">
+    <script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-66180555-1', 'auto', 't0');ga('require', 'displayfeatures');ga('set', 'anonymizeIp', true);ga('send', 'pageview');</script>
+    <script type="text/javascript" src="/build/js/app-56fb096477.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Nunito+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/alpine-collective/alpine-magic-helpers@1.2.x/dist/index.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.2/dist/alpine.min.js" defer></script>
+        <style>
+        .parsley-type{
+            color: red;
+        }
+        .parsley-required{
+            color: red;
+        }
+        .parsley-minlength{
+            color: red;
+        }
+        .parsley-maxlength{
+            color: red;
+        }
+        /*Banner open/load animation*/
+    	.alert-banner {
+    		-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    				animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    	}
+        /*Banner close animation*/
+    	.alert-banner input:checked ~ * {
+    		-webkit-animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    				animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;		
+    	}
+        @-webkit-keyframes slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes  slide-in-top{0%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@-webkit-keyframes slide-out-top{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}100%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}}@keyframes  slide-out-top{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}100%{-webkit-transform:translateY(-1000px);transform:translateY(-1000px);opacity:0}}@-webkit-keyframes slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@keyframes  slide-in-bottom{0%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}100%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}}@-webkit-keyframes slide-out-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}100%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}}@keyframes  slide-out-bottom{0%{-webkit-transform:translateY(0);transform:translateY(0);opacity:1}100%{-webkit-transform:translateY(1000px);transform:translateY(1000px);opacity:0}}@-webkit-keyframes slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes  slide-in-right{0%{-webkit-transform:translateX(1000px);transform:translateX(1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@-webkit-keyframes fade-out-right{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(50px);transform:translateX(50px);opacity:0}}@keyframes  fade-out-right{0%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}100%{-webkit-transform:translateX(50px);transform:translateX(50px);opacity:0}}
+    	
+        .label {
+            display: inline;
+            padding: .2em .6em .3em;
+            font-size: 75%;
+            font-weight: bold;
+            line-height: 1;
+            color: #ffffff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25em;
+        }
+        .label-danger {
+            background-color: #d9534f;
+        }
+        .close {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            float: right;
+            font-size: 15px;
+            /*font-weight: bold;*/
+            /*line-height: 1;*/
+            color: #ffffff;
+            /*text-shadow: 0 1px 0 #ffffff;*/
+            opacity: 0.7;
+            filter: alpha(opacity=20);
+        }
+        .zopim {
+            bottom: 60px !important;
+        }
+    </style>
+            <!-- iOS overlay -->
+    <script src="https://klinikestetika.com/js/overlay/iosOverlay.js"></script>
+    <script src="https://klinikestetika.com/js/overlay/spin.min.js"></script>
+    <link rel="stylesheet" href="https://klinikestetika.com/js/overlay/iosOverlay.css">
+    <script src="https://klinikestetika.com/js/overlay/modernizr-2.0.6.min.js"></script>
+    <script type="text/javascript">
+        $(document ).ready(function() {
+            if(gOverlay != null || typeof(gOverlay) != "undefined"){
+                gOverlay.hide()
+            }
+        })
+
+        function createOverlay(screenText) {
+            var target = document.createElement("div");
+            document.body.appendChild(target);
+            var opts = {
+                lines: 13, // The number of lines to draw
+                length: 11, // The length of each line
+                width: 5, // The line thickness
+                radius: 17, // The radius of the inner circle
+                corners: 1, // Corner roundness (0..1)
+                rotate: 0, // The rotation offset
+                color: '#FFF', // #rgb or #rrggbb
+                speed: 1, // Rounds per second
+                trail: 60, // Afterglow percentage
+                shadow: false, // Whether to render a shadow
+                hwaccel: false, // Whether to use hardware acceleration
+                className: 'spinner', // The CSS class to assign to the spinner
+                zIndex: 2e9, // The z-index (defaults to 2000000000)
+                top: 'auto', // Top position relative to parent in px
+                left: 'auto' // Left position relative to parent in px
+            };
+            var spinner = new Spinner(opts).spin(target);
+            gOverlay = iosOverlay({
+                text: screenText,
+                /*duration: 2e3,*/
+                spinner: spinner
+            });
+        }
+
+        var gOverlay;
+    </script>
+
+    <!-- toastr -->
+    <script src="https://klinikestetika.com/js/toastr/toastr.js"></script>
+    <link type="text/css" rel="stylesheet" href="https://klinikestetika.com/js/toastr/toastr.css"/>
+    <script type="text/javascript">
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "positionClass": "toast-top-full-width",
+            "onclick": null,
+            "showDuration": "15000",
+            "hideDuration": "15000",
+            "timeOut": "15000",
+            "extendedTimeOut": "15000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "slideDown",
+            "hideMethod": "slideUp"
+        }
+    </script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NGMPBXD');
+    </script>
+    <!-- End Google Tag Manager -->
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '353977292900210');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=353977292900210&ev=PageView&noscript=1"/></noscript>
+    <!-- End Facebook Pixel Code -->
+</head>
+<body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-187051470-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-187051470-1');
+    </script>
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGMPBXD"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div>
+        <div class="min-h-screen relative">
+	<!-- navbar start -->
+                    <style>
+  /* since nested groupes are not supported we have to use 
+     regular css for the nested dropdowns 
+  */
+  li>ul                 { transform: translatex(100%) scale(0) }
+  li:hover>ul           { transform: translatex(101%) scale(1) }
+
+  /* Below styles fake what can be achieved with the tailwind config
+     you need to add the group-hover variant to scale and define your custom
+     min width style.
+  	 See https://codesandbox.io/s/tailwindcss-multilevel-dropdown-y91j7?file=/index.html
+  	 for implementation with config file
+  */
+  .group:hover .group-hover\:scale-100 { transform: scale(1) }
+  .group:hover .group-hover\:-rotate-180 { transform: rotate(180deg) }
+  .scale-0 { transform: scale(0) }
+  .min-w-32 { min-width: 8rem }
+</style>
+<div class="fixed top-0 w-full z-40 shadow-sm bg-white" x-data="{ show: false, dropdown: false, logged: localStorage.getItem('klinik-auth') === 'true', search: '', dropdownProduct: false, dropdownService: false, dropdownSubService: false, openModal: false }" x-init="show = false" x-cloak>
+		<div class="flex justify-between items-center px-5 md:px-8 lg:px-16 py-3 md:py-5 text-lg bg-white max-w-8xl mx-auto">
+				<div>
+			<a href="/" class="block">
+				<div class="hidden md:block">
+					<img src="https://klinikestetika.com/images/logo.svg" alt="logo" width="108" height="38" class="block md:hidden lg:block" style="min-width: 108px" />
+					<img src="https://klinikestetika.com/images/favicon.svg" alt="logo" class="hidden md:block lg:hidden w-10 h-10" />
+				</div>
+				<div class="md:hidden">
+					<img src="https://klinikestetika.com/images/logo.svg" alt="logo" width="108" height="38" class="block md:hidden lg:block" style="min-width: 108px"x-show="show === false" />
+					<img src="https://klinikestetika.com/images/favicon.svg" alt="logo" class="block w-10 h-10" x-show="show === true" />
+
+				</div>
+			</a>
+		</div>
+				<div class="uppercase font-semibold hidden md:flex text-base space-x-4 md:space-x-3 xl:space-x-8"
+			x-show="show === false">
+			<div class="">
+				<a href="/" class="relative flex flex-col items-center py-2 group text-sm px-1">
+					<div class="cursor-pointer text-gray-400">home</div>
+					<div
+					class="w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0"
+					></div>
+				</a>
+			</div>
+			<div class="group inline-block" @click.away="dropdownProduct = false">
+				<div class="relative">
+					<a class="relative flex flex-col items-center py-2 group text-sm px-1" @click="dropdownProduct = !dropdownProduct">
+						<div class="cursor-pointer text-gray-400">
+							products 
+						</div>
+						<div
+						class="w-8 h-1.5 bg-white rounded-full absolute bottom-0"
+						></div>
+					</a>
+					<ul class="bg-white object-top text-sm text-gray-400 font-semibold border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top max-w-250 w-screen p-1 tracking-wide" style="max-width: 240px">
+					<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+						<a href="/product" class="block">ALL PRODUCTS</a>
+					</li>
+					<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+						<a href="/product/category/eksotika-series" class="block">EKSOTIKA SERIES</a>
+					</li>
+				</ul>
+            </div>
+			</div>
+			<div class="group inline-block relative" @click.away="dropdownService = false">
+				<a class="relative flex flex-col items-center py-2 group text-sm px-1" @click="dropdownService = !dropdownService">
+					<div class="cursor-pointer text-gray-400">
+						services
+					</div>
+					<div
+					class="w-8 h-1.5 bg-white rounded-full absolute bottom-0"
+					></div>
+				</a>
+				<ul class="bg-white text-sm text-gray-400 font-semibold border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top max-w-250 w-screen p-1 tracking-wide" style="max-width: 240px;">
+
+											<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+							<a href="/services/pelayanan-perawatan-kulit" class="block">Estetika Solutions</a>
+						</li>
+																	<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+							<a href="/services/pelayanan-spa-estetika" class="block">Stress Free Solutions</a>
+						</li>
+																	<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+							<a href="/services/all-treatments" class="block">All Treatments</a>
+						</li>
+															</ul>
+				
+			</div>
+			<div class="">
+				<a href="/posts/promotions" class="relative flex flex-col items-center py-2 group text-sm px-1">
+					<div class="cursor-pointer text-gray-400">
+						promo
+					</div>
+					<div
+					class="w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0"
+					></div>
+				</a>
+			</div>
+			<!-- <div class="group inline-block relative" @click.away="dropdownService = false">
+				<a class="relative flex flex-col items-center py-2 group text-sm px-1" @click="dropdownService = !dropdownService">
+					<div class="cursor-pointer text-gray-400">
+						promo
+					</div>
+					<div
+					class="w-8 h-1.5 bg-white rounded-full absolute bottom-0"
+					></div>
+				</a>
+				<ul class="bg-white text-sm text-gray-400 font-semibold border rounded-md transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top max-w-250 w-screen p-1 tracking-wide" style="max-width: 240px;">
+					<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+						<a href="/posts/promotions" class="block pl-4">promo</a>
+					</li>
+					<li class="rounded-sm px-3 py-2 hover:bg-gray-100">
+						<a href="/posts/coupon" class="block pl-4">kupon</a>
+					</li>
+				</ul>
+				
+			</div> -->
+			<div class="">
+				<a href="/posts/articles" class="relative flex flex-col items-center py-2 group text-sm px-1">
+					<div class="cursor-pointer text-gray-400">
+						News &amp; Articles
+					</div>
+					<div
+					class="w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0"
+					></div>
+				</a>
+			</div>
+			<div class="">
+				<a href="/branches" class="relative flex flex-col items-center py-2 group text-sm px-1">
+					<div class="cursor-pointer text-gray-400">
+						branches
+					</div>
+					<div
+					class="w-8 h-1.5 bg-white group-hover:bg-gray-400 rounded-full absolute bottom-0"
+					></div>
+				</a>
+			</div>
+		</div>
+        
+		<div class="flex items-center" :class="{ 'w-full ml-2 md:ml-4': show }" style="max-height: 40px">
+														<div
+					class="bg-klinik-grey flex justify-between items-center w-full p-1 rounded-full border border-gray-300"
+					x-show="show === true"
+					@click.away="show = false">
+					<input
+						id="inputSearchGlobal"
+						type="text"
+						name=""
+						class="w-full bg-transparent focus:outline-none ml-3 md:ml-4 text-sm"
+						placeholder="Temukan informasi yang Anda butuhkan"
+						x-model="search"
+                        onkeydown="enterSearch(this)">
+					<button x-show="search !== ''" @click="search = ''" class="text-red-400 hover:text-red-500 mx-2">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+					</button>
+					<div class="bg-gray-200 hover:bg-gray-300 p-2 rounded-full" @click="submitSearch('inputSearchGlobal')">
+						<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+					</div>
+				</div>
+			
+						<div class="flex items-center" :class="{ 'hidden md:flex': show }">
+								<div>
+					<button
+						class="px-2 py-2 rounded-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200"
+						x-show="show === false"
+						@click="show = true">
+						<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+					</button>
+				</div>
+								<div class="mx-2 md:mx-4">
+					<a href="/cart"class="w-10 h-10 flex justify-center items-center rounded-full bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-200">
+                                                						<img src="https://klinikestetika.com/images/icon-cart.svg" alt="icon-cart" class="h-6 w-6" />
+					</a>
+				</div>
+								<div>
+					                    											<div>
+							<a
+								href="/login"
+								class="md:px-10 h-full px-2 py-2 rounded-full bg-klinik-primary text-white text-sm md:text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-klinik-primary block uppercase font-bold">
+								<div class="hidden md:block">
+									Login
+								</div>
+								<div class="md:hidden">
+									<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
+								</div>
+							</a>
+						</div>
+					                    					                    				</div>
+			</div>
+		</div>
+	</div>
+    </div>
+
+<script type="text/javascript">
+
+	function enterSearch(e){
+		if(event.key === 'Enter') {
+			let keyword = document.getElementById(e.id).value
+	        var scope = "global"
+			if(e.id == "inputSearchProduct") scope = "product"
+			else if(e.id == "inputSearchPromo") scope = "promo"
+			else if(e.id == "inputSearchService") scope = "service"
+			else if(e.id == "inputSearchArticle") scope = "article"
+			else if(e.id == "inputSearchBranch") scope = "branch"
+			window.location = "/search?keyword=" + keyword + "&scope=" + scope       
+	    }
+	}
+
+	function submitSearch(inputSearch){
+		let keyword = document.getElementById(inputSearch).value
+		var scope = "global"
+		if(inputSearch == "inputSearchProduct") scope = "product"
+		else if(inputSearch == "inputSearchPromo") scope = "promo"
+		else if(inputSearch == "inputSearchService") scope = "service"
+		else if(inputSearch == "inputSearchArticle") scope = "article"
+		else if(inputSearch == "inputSearchBranch") scope = "branch"
+		window.location = "/search?keyword=" + keyword + "&scope=" + scope
+	}
+
+</script>
+    
+	<!-- navbar end -->
+	        <!-- navbar bottom start -->
+        <div 
+            class="md:hidden flex justify-between bg-white fixed bottom-0 w-full border-t border-gray-200 uppercase font-semibold text-sm z-40"
+        >
+            <a 
+                href="/" 
+                class="bg-white hover:bg-gray-50 md:p-5 p-2 flex flex-col items-center flex-1 cursor-pointer text-xs"
+            >
+                                    <img src="https://klinikestetika.com/images/icon-navbar/icon-home.svg" class="w-6 h-6" />
+                    <div class="mt-1 text-gray-400">home</div>
+                            </a>
+            <a  
+                href="/product"
+                class="bg-white hover:bg-gray-50 md:p-5 p-2 flex flex-col items-center flex-1 cursor-pointer text-xs"
+            >   
+                                    <img src="https://klinikestetika.com/images/icon-navbar/icon-product.svg" class="w-6 h-6" />
+                    <div class="mt-1 text-gray-400">products</div>
+                            </a>
+            <a  
+                href="/services/pelayanan-perawatan-kulit"
+                class="bg-white hover:bg-gray-50 md:p-5 p-2 flex flex-col items-center flex-1 cursor-pointer text-xs text-gray-400"
+            >   
+                                    <img src="https://klinikestetika.com/images/icon-navbar/icon-service.svg" class="w-6 h-6" />
+                    <div class="mt-1 text-gray-400">services</div>
+                            </a>
+            <a  
+                href="/posts/promotions"
+                class="bg-white hover:bg-gray-50 md:p-5 p-2 flex flex-col items-center flex-1 cursor-pointer text-xs text-gray-400"
+            >   
+                                    <img src="https://klinikestetika.com/images/icon-navbar/icon-promo.svg" class="w-6 h-6" />
+                    <div class="mt-1 text-gray-400">promo</div>
+                                
+            </a>
+            <a  
+                href="/customer/profile/update"
+                class="bg-white hover:bg-gray-50 md:p-5 p-2 flex flex-col items-center flex-1 cursor-pointer text-xs text-gray-400"
+            >
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                <div class="mt-1">AKUN</div>
+            </a>
+        </div>
+    
+    
+    	<!-- navbar bottom end -->
+    
+            <div class="md:pt-20 pt-16">
+            <div class="flex justify-center items-center" style="min-height: 400px;">
+  <div class="text-center">
+    <h1 class="text-9xl font-bold" style="color: #527ba9">404</h1>
+    <p class="pt-8">Mohon maaf, halaman yang anda cari tidak ditemukan...</p>
+  </div>
+</div>
+        </div>
+    
+                <div class="bg-grad-footer text-white px-6 mt-11 pt-10" x-data="{ openModal: false }" x-init="openModal = false">
+  <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1">
+    <div>
+      <div>
+        <div>
+          <img src="https://klinikestetika.com/images/logo-footer.svg" class="mx-auto" width="200" />
+        </div>
+        <div class="mt-5">
+          <img src="https://klinikestetika.com/images/badge-footer.svg" class="mx-auto" width="200" />
+        </div>
+      </div>
+      
+      <div class="flex justify-center pt-10">
+        <a href="https://apps.apple.com/id/app/klinik-estetika-dr-affandi/id1446841848" target="_blank" rel="noopener">
+          <img src="https://klinikestetika.com/images/footer/app-store.svg" alt="app" />
+        </a>
+        <a href="https://play.google.com/store/apps/details?id=com.klinikestetika.affandi" target="_blank" rel="noopener">
+          <img src="https://klinikestetika.com/images/footer/google-play.svg" alt="app" class="ml-5" />
+        </a>
+      </div>
+      <div class="flex justify-center space-x-5 mt-8">
+        <a href="https://www.facebook.com/klinikestetika" target="_blank" rel="noopener">
+          <img src="https://klinikestetika.com/images/footer/icon-fb.svg" alt="icon-medsos" class="" />
+        </a>
+        <a href="https://twitter.com/klinikestetika" target="_blank" rel="noopener">
+          <img src="https://klinikestetika.com/images/footer/icon-tw.svg" alt="icon-medsos" class="" />
+        </a>
+        <a href="https://www.instagram.com/klinikestetika" target="_blank" rel="noopener">
+          <img src="https://klinikestetika.com/images/footer/icon-ig.svg" alt="icon-medsos" class="" />
+        </a>
+        <a href="https://www.youtube.com/channel/UCAlLbnKcaP-FYtWakHSGCJg" target="_blank" rel="noopener">
+          <img src="https://klinikestetika.com/images/footer/icon-yt.svg" alt="icon-medsos" class="" />
+        </a>
+        <a href="https://www.tiktok.com/@klinikestetika?lang=en" target="_blank" rel="noopener" class="bg-white rounded-full" style="color: #5f93c7">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-tiktok" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" style="padding: 3px">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M9 12a4 4 0 1 0 4 4v-12a5 5 0 0 0 5 5"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <div class="md:pt-0 pt-10">
+      <div class="flex">
+        <div class="mb-7 font-bold text-base md:text-xl border-b-2 border-white md:border-none">OTHERS</div>
+      </div>
+      <div class="flex flex-col space-y-4 pr-2 font-bold text-sm md:text-base">
+        <a href="https://klinikestetika.com/about">TENTANG KLINIK ESTETIKA dr. AFFANDI</a>
+        <a href="https://klinikestetika.com/doctors">TIM DOKTER</a>
+        <a href="https://klinikestetika.com/careers">KARIR</a>
+        <a href="https://klinikestetika.com/how-to-order">CARA KONSULTASI ONLINE & CARA PEMESANAN</a>
+        <a href="https://klinikestetika.com/certification">SERTIFIKASI</a>
+        <a class="cursor-pointer uppercase" @click="openModal = true">HUBUNGI KAMI</a>
+      </div>
+    </div>
+    <div class="lg:pt-0 pt-12">
+      <div class="flex">
+        <a href="/branches" id="branches" class="mb-7 font-bold text-base md:text-xl border-b-2 border-white md:border-none">BRANCHES</a>
+      </div>
+      <div class="grid grid-cols-2 capitalize text-sm">
+        <div class="space-y-6">
+          <a href="/branches#semarang" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            semarang
+          </a>
+          <a href="/branches#bekasi" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            bekasi
+          </a>
+          <a href="/branches#cibubur" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            cibubur
+          </a>
+          <a href="/branches#cirebon" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            cirebon
+          </a>
+          <a href="/branches#denpasar" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            denpasar
+          </a>
+          <a href="/branches#depok" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            depok
+          </a>
+          <a href="/branches#jakarta-1" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            jakarta 1
+          </a>
+          <a href="/branches#jakarta-2" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            jakarta 2
+          </a>
+        </div>
+        <div class="space-y-6">
+          <a href="/branches#jakarta-3" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            jakarta 3
+          </a>
+          <a href="/branches#makassar" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            makassar
+          </a>
+          <a href="/branches#medan" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            medan
+          </a>
+          <a href="/branches#solo" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            solo
+          </a>
+          <a href="/branches#surabaya" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            surabaya
+          </a>
+          <a href="/branches#tangerang" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            tangerang
+          </a>
+          <a href="/branches#yogyakarta" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            yogyakarta
+          </a>
+          <a href="/branches#balikpapan" class="flex items-start">
+            <img src="https://klinikestetika.com/images/chevron.svg" alt="icon" class="mr-2" style="padding-top: 2px">
+            Balikpapan
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="lg:pt-0 pt-12">
+      <div class="flex">
+        <a href="/posts/articles" class="mb-7 font-bold text-base md:text-xl border-b-2 border-white md:border-none">NEWS & ARTICLES</a>
+      </div>
+      <div class="flex flex-col space-y-8 font-bold text-sm md:text-base">
+                <div>
+          <a href="https://klinikestetika.com/posts/news-and-events/klinik-estetika-dr-affandi-selenggarakan-launching-event-campaign-happyjadidirisendiri" class="font-semibold tracking-wider">
+            Klinik Estetika dr. Affandi Selenggarakan Launching Event Campaign #HappyJadiDiriSendiri 
+          </a>
+          <div class="flex items-center mt-1">
+            <div class="mr-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></div>
+            <div class="text-sm font-medium">
+                                July 28, 2023
+            </div>
+          </div>
+        </div>
+                <div>
+          <a href="https://klinikestetika.com/posts/news-and-events/estetika-dr-affandi-bersama-prodi-komunikasi-uma-selenggarakan-kuliah-umum-mengenai-kesehatan-kulit" class="font-semibold tracking-wider">
+            Estetika dr. Affandi Bersama Prodi Komunikasi UMA Selenggarakan Kuliah Umum Mengenai Kesehatan Kulit 
+          </a>
+          <div class="flex items-center mt-1">
+            <div class="mr-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></div>
+            <div class="text-sm font-medium">
+                                July 01, 2023
+            </div>
+          </div>
+        </div>
+                <div>
+          <a href="https://klinikestetika.com/posts/news-and-events/estetika-dr-affandi-bersama-sma-stella-duce-2-yogya-selenggarakan-edukasi-cuci-wajah" class="font-semibold tracking-wider">
+            Estetika dr. Affandi Bersama SMA Stella Duce 2 Yogya Selenggarakan Edukasi Cuci Wajah
+          </a>
+          <div class="flex items-center mt-1">
+            <div class="mr-2">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg></div>
+            <div class="text-sm font-medium">
+                                June 10, 2023
+            </div>
+          </div>
+        </div>
+              </div>
+    </div>
+  </div>
+  <div
+    class="md:pb-10 pb-20 text-white border-t-2 border-white mt-10 pt-5 text-sm"
+  >
+    <div
+      class="flex md:justify-between items-center flex-col-reverse md:flex-row"
+    >
+      <div class="text-center md:pt-0 pt-4">Copyright ©2021 Klinik Estetika</div>
+      <div class="font-semibold">
+        <a href="/faq" class="mr-2">FAQ</a> | <a href="/terms-and-conditions" class="ml-2">TERMS AND CONDITIONS</a>
+      </div>
+    </div>
+  </div>
+  <div x-cloak x-show="openModal" class="fixed z-50 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center md:block md:p-0">
+      <div 
+        x-show="openModal" 
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0"
+        x-transition:enter-end="opacity-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100"
+        x-transition:leave-end="opacity-0" 
+        class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true"
+      ></div>
+
+      <!-- This element is to trick the browser into centering the modal contents. -->
+      <span class="hidden md:inline-block md:align-middle md:h-screen" aria-hidden="true">&#8203;</span>
+      <div 
+        x-show="openModal" 
+        x-transition:enter="ease-out duration-300"
+        x-transition:enter-start="opacity-0 translate-y-4 md:translate-y-0 md:scale-95"
+        x-transition:enter-end="opacity-100 translate-y-0 md:scale-100"
+        x-transition:leave="ease-in duration-200"
+        x-transition:leave-start="opacity-100 translate-y-0 md:scale-100"
+        x-transition:leave-end="opacity-0 translate-y-4 md:translate-y-0 md:scale-95" 
+        class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all md:my-8 md:align-middle max-w-full w-full md:max-w-2xl md:w-full md:p-6 relative z-50"
+      >
+        <div class="flex justify-end absolute top-2 right-2 text-black">
+          <div class="p-1 rounded-lg hover:bg-gray-100 text-gray-800 cursor-pointer" @click="openModal = false">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+          </div>
+        </div>
+        <form action="https://klinikestetika.com/contact" method="post" data-parsley-validate="true">
+          <input type="hidden" name="_token" value="XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi">
+          <div>
+            <div class="">
+              <h3 class="leading-6 mt-6 font-extrabold text-base md:text-4xl text-center text-black" id="modal-title">
+                Get In Touch With Us
+              </h3>
+              <div class="text-center mt-4 text-black">
+                Apabila Anda mempunyai pertanyaan seputar produk maupun pelayanan<br> Estetika dr. Affandi, silahkan hubungi kami.
+              </div>
+              <div class="mt-12 space-y-6">
+                <div class="block md:flex gap-6 space-y-6 md:space-y-0">
+                  <div class="w-full md:w-1/2">
+                    <input required type="text" name="name" id="name_user" class="shadow-sm focus:outline-none block w-full md:text-sm border border-gray-200 bg-gray-50 rounded-md px-3 py-2.5 text-black" placeholder="Name">
+                  </div>
+                  <div class="w-full md:w-1/2">
+                    <input required type="email" name="email" id="email_user" class="shadow-sm focus:outline-none block w-full md:text-sm border border-gray-200 bg-gray-50 rounded-md px-3 py-2.5 text-black" placeholder="Email">
+                  </div>
+                </div>
+                <div>
+                  <input required type="text" name="subject" id="subject_message" class="shadow-sm focus:outline-none block w-full md:text-sm border border-gray-200 bg-gray-50 rounded-md px-3 py-2.5 text-black" placeholder="Subject">
+                </div>
+                <div>
+                  <textarea required id="message_body" name="message" rows="4" class="shadow-sm focus:outline-none block w-full sm:text-sm border border-gray-200 bg-gray-50 rounded-md px-3 py-2.5 text-black" placeholder="Message"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5">
+            <button type="submit" class="w-full inline-flex justify-center rounded-full border border-transparent shadow-sm px-4 py-2 bg-klinik-primary text-base font-medium text-white hover:bg-klinik-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-klinik-primary md:col-start-2 md:text-sm">
+              SUBMIT
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+    </div>
+    <script type="text/javascript">
+    var tidakSesuaiResep = false;
+
+    function addCart(id, element) {
+            if (element.dataset.otc == 0) {
+                alert("Obat ini memerlukan resep dokter.\nSilahkan lakukan konsultasi dahulu untuk mendapatkan obat ini.");
+                return
+            }
+
+        var authRK = $('#authRK').val();
+        var qty
+
+        if(isNaN( parseInt($("#numberQty").text()) ) === false){
+          qty = parseInt($("#numberQty").text())
+        }
+        else{
+          qty = 1
+        }
+
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/product/cart/add",
+            data: {
+                "_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi",
+                "id": id,
+                "qty" : qty
+            },
+            datatype: "html",
+            beforeSend: function(){
+                element.classList.add('loading');
+                $(".loading").button('loading');
+            },
+            success: function(result){
+                if(result.status == 0){
+                    if(result.is_old_patient) {
+                        $('.old_patient_product_id').val(id);
+                        $('#oldPatientModal').modal('show');
+                    }
+                    else if(result.is_member_expired) {
+                        $('#memberExpiredModal').modal('show');
+                    }
+                    else {
+                        // $('#tidakAdaResepModal').modal('show');
+                        alert('tidak ada resep untuk ini');
+                    }
+                }
+                else if(result.status == 2) {
+                    $('#harusLoginModal').modal('show');
+                }
+                else {
+                    if(authRK){
+                        location.reload();
+                    }
+                    else {
+                        //updateModal();
+                        var path = "https://klinikestetika.com/product/checkout/shipping";
+                        $("#tombolPembayaran").html("<a href='"+path+"' class='btn btn-info btn-block btn-lg'>Lanjut ke Pembayaran</a>");
+                        $('#cartModal').modal('show');
+                    }
+                }
+            },
+            complete: function() {
+                setTimeout(function () {
+                    $(".loading").button('reset');
+                    element.classList.remove('loading');
+                }, 3000);
+            }
+        });
+    }
+        
+    function addCartHidden(id){
+        $.ajax({
+            type      : "post",
+            url       : "https://klinikestetika.com/product/cart/add",
+            data      : {
+                "_token"  : "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi",
+                "id"      : id
+            },
+            datatype  : "html",
+            success   : function(result){
+                if(result == 0){
+                    //$('#tidakAdaResepModal').modal('show');
+                }
+                else if(result == 2){
+                    $('#harusLoginModal').modal('show');
+                }
+                else {
+                    //updateModalHidden();
+                    //var path = "https://klinikestetika.com/product/checkout/shipping";
+                    //$("#tombolPembayaran").html("<a href=' "+ path + "' class='btn btn-info btn-block btn-lg'>Lanjut ke Pembayaran</a>");
+                }
+            }
+        });
+    }
+        
+    function getShippingPrice(){
+        var city_id = $("#city").val();
+        var province_id = $("#province").val();
+        var discount = $("#discount").val();
+        console.log("city_id : " + city_id);
+        console.log("province_id : " + province_id);
+        console.log("discount : " + discount);
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/order/post/shipping/price",
+            data: {
+                "_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi",
+                "city_id": city_id,
+                "province_id":province_id, 
+                "discount": discount
+            },
+            datatype: "html",
+            success: function(result){
+                $("#totalWeight").html(result[0] + " kg");
+                $("#biayaPengirimanContainer").html(result[1]);
+                $("#totalContainer").html(result[2]);
+                $("#ringkasanTotalContainer").html(result[2]);
+                //console.log(result);
+            }
+        });
+    }
+        
+    function getPrescriptionReset(prescription_id){
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/consultation/photo/prescription/reset_cart",
+            data: {"_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi","prescription_id": prescription_id},
+            datatype: "html",
+            success: function(result){
+                tidakSesuaiResep = false;
+                updateModal();
+            }
+        });
+    }
+        
+    function deleteCart(rowId){
+        createOverlay("Proses...");
+        $.ajax({
+            type      : "post",
+            url       : "https://klinikestetika.com/product/cart/delete",
+            data      : {
+                "_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi",
+                "rowId": rowId
+            },
+            datatype  : "html",
+            success: function(result){
+                gOverlay.hide();
+                                        
+                                    // $("#tombolPembayaran").html("");
+                                console.log(result);
+                if(result == 1){
+                    location.reload();
+                }
+                else {
+                    gOverlay.hide();
+                    updateModalWithoutGetData(result);
+                }
+            },
+            error: function(error) {
+                gOverlay.hide();
+            }
+        });
+    }
+        
+    var timer;
+    function editCartQty(rowId) { 
+        var qty = $("#qtyCart_" + rowId).val();
+        createOverlay("Proses...");
+        $.ajax({
+            type      : "post",
+            url       : "https://klinikestetika.com/product/cart/edit/qty",
+            data      : {
+                "_token"  : "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi",
+                "rowId"   : rowId,
+                "qty"     : qty 
+            },
+            datatype  : "html",
+            success   : function(result) {
+                                // console.log(result);
+                if(result == 0) {
+                    gOverlay.hide();
+                    $('#tidakAdaResepModal').modal('show');
+                    //$("#cartModal").modal("hide");
+                    //updateModal();
+                }
+                else if(result == 1) {
+                    location.reload(true);
+                }
+                else {
+                    gOverlay.hide();
+                    //updateModalWithoutGetData(result);
+                }
+            },
+            error     : function(error) {
+                gOverlay.hide();
+                alert("Terjadi kendala pada server/jaringan");
+            }
+        });
+    }
+
+    function editCartQtyByOne(rowId, plusOrMinus) {
+        console.log("rowId : " + rowId + ", plusOrMinus : " + plusOrMinus);
+        createOverlay("Proses...");
+        $.ajax({
+            type      : "post",
+            url       : "https://klinikestetika.com/product/cart/edit/qty",
+            data      : {
+                "_token"    : "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi",
+                "rowId"     : rowId,
+                "qty"       : 1,
+                "operator"  : plusOrMinus,
+                "json"      : "Y"        
+            },
+            datatype  : "json",
+            success   : function(data/*result*/) {
+                                console.log(data/*result*/);
+                //var data = JSON.parse(result);
+                gOverlay.hide();
+                if(data["STATUS"] == "SUCCESS") {
+                    console.log("cartTotal : " + data["PAYLOAD"]["cartTotal"]);
+                    $("#dCartTotal").html("Rp. " + data["PAYLOAD"]["cartTotal"]);
+                    $("#mCartTotal").html("Rp. " + data["PAYLOAD"]["cartTotal"]);
+
+                    console.log("cartQty : " + data["PAYLOAD"]["cartQty"]);
+                    $("#dCartQty").html("(" + data["PAYLOAD"]["cartQty"] + " produk)");
+                    $("#mCartQty").html("(" + data["PAYLOAD"]["cartQty"] + " produk)");
+
+                    console.log("newQty : " + data["PAYLOAD"]["newQty"]);
+                    var newQty = data["PAYLOAD"]["newQty"];
+                    if(newQty <= 0) {
+                        console.log("=> removing ...");
+                        var target = $("#d_row_" + rowId);
+                        target.hide('slow', function(){ target.remove(); });
+                        var target = $("#m_row_" + rowId);
+                        target.hide('slow', function(){ target.remove(); });
+                    }
+                    else {
+                        console.log("=> updating ...");
+                        $("#d_qty_" + rowId).html(data["PAYLOAD"]["newQty"]);
+                        $("#m_qty_" + rowId).html(data["PAYLOAD"]["newQty"]);
+
+                        console.log("rowTotal : " + data["PAYLOAD"]["rowTotal"]);
+                        $("#d_subtotal_" + rowId).html("Rp. " + data["PAYLOAD"]["rowTotal"]);
+                        $("#m_subtotal_" + rowId).html("Rp. " + data["PAYLOAD"]["rowTotal"]);
+                    }                    
+                }
+                else {
+                    $('#tidakAdaResepModal').modal('show');
+                }
+            },
+            error     : function(error) {
+                gOverlay.hide();
+                alert("Terjadi kendala pada server/jaringan");
+            }
+        });
+    }
+    
+    
+    function getEditCart(rowId,qty){
+      editCart(rowId,qty)
+    }
+    
+    
+    var siblingnya;
+    var nilainya;
+    var functionNya = function(){
+        //alert(nilainya);
+        editCart(siblingnya,nilainya)
+    }
+    
+    function editSizeCart(rowId, size){
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/product/cart/edit/size",
+            data: {"_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi","rowId": rowId,"size": size},
+            datatype: "html",
+            success: function(result){
+                                if(result==1){
+                    location.reload();
+                }
+                else {
+                    updateModalWithoutGetData(result);
+                }
+            }
+        });
+    }   
+    
+    function batchAddCart(data){}    
+    
+    function updateModalWithoutGetData(data){
+        var cartNumber = 0;
+        $("#tableCart tbody").html('');
+        var total = 0;
+        for(x in data){
+            $("#tableCart tbody").append("<tr></tr>");
+            $("#tableCart tbody > tr:last").append("<td style='vertical-align:middle'><a onClick=deleteCart('"+data[x]['rowid']+"') class='btn btn-xs btn-danger' style='border-radius:100%' role='button'>&times;</a></td>");
+            var path = data[x]["options"]["image"];
+            var temp = "";
+    
+            for(y in data[x]["options"]["size_available"]){
+                var selected = "";
+    
+                if( data[x]["options"]["size"] ==  data[x]["options"]["size_available"][y][1]){
+                    selected = "selected";
+                }
+    
+                temp += "<option " + selected +" value='" + data[x]['options']['size_available'][y][1] + "' >" + data[x]['options']['size_available'][y][0] + "</option>";
+            }
+    
+            cartNumber = cartNumber + parseInt(data[x]["qty"]);
+            var image = 'https://klinikestetika.com/'+path;
+            $("#tableCart tbody > tr:last").append("<td><img src='"+image+"' width='40px'></td>");
+            $("#tableCart tbody > tr:last").append("<td>"+ data[x]['name'] +"</td>");
+            $("#tableCart tbody > tr:last").append("<td>"+ moneyFormat(data[x]['price']) +"</td>");
+            $("#tableCart tbody > tr:last").append("<td><input type='hidden' value='"+ data[x]["rowid"] +"' name='rowId'><input  style='width: 60px' type='number'  min='1' name='qtyCart' onchange() value='"+ data[x]["qty"] +"' class='form-control'></td>");
+            $("#tableCart tbody > tr:last").append("<td><input type='hidden' value='"+ data[x]["rowid"] +"' name='rowId'><select style='width: 60px' name='product_size' id='product_size' class='form-control'>"+ temp +"</select></td>")
+            $("#tableCart tbody > tr:last").append("<td>"+ moneyFormat(data[x]['subtotal'])+"</td>");
+            total += data[x]['subtotal'];
+        }
+    
+        $(".cartNumber").html(cartNumber);
+        $("#cartTotal").text(moneyFormat(total));
+    
+        if($("#tableCart2").length != 0) {
+            var cartNumber = 0;
+            $("#tableCart2 tbody").html('');
+            var total = 0;
+            for(x in data){
+                $("#tableCart2 tbody").append("<tr></tr>");
+                $("#tableCart2 tbody > tr:last").append("<td style='vertical-align:middle'><a onClick=deleteCart('"+data[x]['rowid']+"') class='btn btn-xs btn-danger' style='border-radius:100%' role='button'>&times;</a></td>");
+                var path = data[x]["options"]["image"];
+                var temp = "";
+    
+                for(y in data[x]["options"]["size_available"]){
+                    var selected = "";
+    
+                    if( data[x]["options"]["size"] ==  data[x]["options"]["size_available"][y][1]){
+                        selected = "selected";
+                    }
+    
+                    temp += "<option " + selected +" value='" + data[x]['options']['size_available'][y][1] + "' >" + data[x]['options']['size_available'][y][0] + "</option>";
+                }
+    
+                cartNumber = cartNumber + parseInt(data[x]["qty"]);
+                var image = 'https://klinikestetika.com/'+path;
+                $("#tableCart2 tbody > tr:last").append("<td><img src='"+image+"' width='40px'></td>");
+                $("#tableCart2 tbody > tr:last").append("<td>"+ data[x]['name'] +"</td>");
+                $("#tableCart2 tbody > tr:last").append("<td>"+ moneyFormat(data[x]['price']) +"</td>");
+                $("#tableCart2 tbody > tr:last").append("<td><input type='hidden' value='"+ data[x]["rowid"] +"' name='rowId'><input  style='width: 60px' type='number'  min='1' name='qtyCart' onchange() value='"+ data[x]["qty"] +"' class='form-control'></td>");
+                $("#tableCart2 tbody > tr:last").append("<td><input type='hidden' value='"+ data[x]["rowid"] +"' name='rowId'><select style='width: 60px' name='product_size' id='product_size' class='form-control'>"+ temp +"</select></td>")
+                $("#tableCart2 tbody > tr:last").append("<td>"+ moneyFormat(data[x]['subtotal'])+"</td>");
+                total += data[x]['subtotal'];
+            }
+    
+            $(".cartNumber").html(cartNumber);
+            $("#cartTotal2").text(moneyFormat(total));
+        }
+    }
+        
+    function updateModal(){
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/product/cart/get",
+            data: {"_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi"},
+            datatype: "html",
+            success: function(result){
+                console.log(result);
+                updateModalWithoutGetData(result);
+            }
+        });
+    }
+        
+    function updateModalHidden(){
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/product/cart/get",
+            data: {"_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi"},
+            datatype: "html",
+            success: function(result){
+                console.log(result);
+                updateModalWithoutGetData(result);
+                $url = "https://klinikestetika.com/product/checkout/shipping";
+                window.top.location.href = $url;
+            }
+        });
+    }
+    
+    $(document).on('change', 'select[name=product_size]', function() {
+        editSizeCart($(this).siblings('input[name=rowId]').val(),$(this).val());
+    });
+        
+    function getCity(){
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/get_city",
+            data: {"_token": "XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi","province_id": $("#province").val()},
+            datatype: "html",
+            success: function(result){
+                $("#city").empty();
+    
+                for(x in result){
+                    $("#city").append("<option value='"+ result[x]['id'] +"'>"+ result[x]['name']+"</option>");
+                }
+    
+                /*$("#city").append("<option value='500'>Kota Lainnya</option>");*/
+    
+                if(!$("#province option:selected").is('[value]')){
+                    $("#city").empty();
+                }
+            }
+        });
+    }
+        
+    function moneyFormat(a,b,c,d,e){
+        e = function(f){
+            return f.split('').reverse().join('')
+        };
+    
+        b = e(parseInt(a,10).toString());
+    
+        for(c=0,d='';c<b.length;c++){
+            d += b[c];
+            if((c+1)%3===0&&c!==(b.length-1)){
+                d+=',';
+            }
+        }
+    
+        return'Rp.\t'+e(d)+''
+    }
+    
+    function moneyUnformat(rp){
+        return parseInt(rp.replace(/,.*|\D/g,''),10)
+    }
+    
+    
+    // Old Patient Function ----------------------------------------------------- //
+    
+    function postOldPatient(){
+        console.log($('.old-patient-form').serialize());
+        $.ajax({
+            type: "post",
+            url: "https://klinikestetika.com/customer/old-patient",
+            data: $('.old-patient-form').serialize(),
+            datatype: "html",
+            success: function(result){
+                if(result.status) {
+                    $('#oldPatientModal').modal('hide');
+                    console.log(result.message);
+                    $('#oldPatientSuccess').modal('show');
+    
+                    // checkOtc [kembalikan ke fungsi addCart(result.product_id)]
+                    addCart(result.product_id);
+                }
+                else {
+                    alert(result.message_error);
+                }
+            }
+        });
+    }
+    
+    
+    function getSkipOldPatient(){
+        $.ajax({
+            type: "get",
+            url: "https://klinikestetika.com/customer/skip-old-patient",
+            data: $('.old-patient-form').serialize(),
+            datatype: "html",
+            success: function(result){
+                console.log(result.message);
+                if(result.status){
+                    $('#oldPatientModal').modal('hide');
+                    // checkOtc [kembalikan ke fungsi addCart(result.product_id)]
+                    addCart(result.product_id);
+                }
+            }
+        });
+    }
+    
+    
+    $('#cartModal').on('hidden.bs.modal', function () {
+        location.reload(true);
+    })
+
+    $('#tidakAdaResepModal').on('hidden.bs.modal', function() {
+        location.reload(true);
+    });
+</script>    <!--Start of Zopim Live Chat Script-->
+    <script type="text/javascript">
+        window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+            d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+            _.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+                                      $.src="//v2.zopim.com/?3VSUdpyJ4Vv0dFHdMWS759W1spbHsR46";z.t=+new Date;$.
+                                      type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+    </script>
+    <!--End of Zopim Live Chat Script-->
+
+    <!-- Google Code for Remarketing Tag -->
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 859923992;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    </script>
+    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+    </script>
+    <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/859923992/?guid=ON&amp;script=0"/>
+        </div>
+    </noscript>
+
+    <!--modal harus login-->
+<div
+	class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
+	id="harusLoginModal">
+    <!--modal content-->
+    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">   
+        <div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="mt-3 text-left">
+            <form method="POST" action="https://klinikestetika.com/login" accept-charset="UTF-8" autocomplete="off" data-parsley-validate="1"><input name="_token" type="hidden" value="XqHiIj9JUv3iA4UBdj6OfPgMVqbkHEtdIwB4UvFi">
+            <div class="mt-8 space-y-6 flex-grow">
+                <div>
+                    <label for="email" class="block text-xs md:text-sm font-bold">Alamat Email</label>
+                    <div class="mt-2">
+                        <input required type="text" name="email" id="email" class="shadow-sm focus:outline-none block w-full md:text-sm border border-gray-200 bg-gray-50 rounded-md px-3 py-2.5 md:py-3 text-sm" placeholder="mailaddress@mail">
+                    </div>
+                </div>
+                <div class="" x-data="{ isVisible: false }">
+                    <label for="password" class="block text-xs md:text-sm font-bold">Password</label>
+                    <div class="mt-2 shadow-sm focus:outline-none w-full md:text-sm border border-gray-200 bg-gray-50 rounded-md px-3 py-2 flex items-center">
+                        <input required :type="isVisible ? 'text' : 'password'" name="password" id="password" class="focus:outline-none block w-full md:text-sm bg-gray-50 text-sm" placeholder="Password">
+                        <div class="text-gray-400 p-1 rounded-md hover:bg-gray-200 cursor-pointer" @click="isVisible = !isVisible">
+                            <svg x-show="isVisible === true" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path></svg>
+                            <svg x-show="isVisible === false" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.875 18.825A10.05 10.05 0 0112 19c-4.478 0-8.268-2.943-9.543-7a9.97 9.97 0 011.563-3.029m5.858.908a3 3 0 114.243 4.243M9.878 9.878l4.242 4.242M9.88 9.88l-3.29-3.29m7.532 7.532l3.29 3.29M3 3l3.59 3.59m0 0A9.953 9.953 0 0112 5c4.478 0 8.268 2.943 9.543 7a10.025 10.025 0 01-4.132 5.411m0 0L21 21"></path></svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center justify-between text-xs md:text-base">
+                    <div class="flex items-center">
+                        <input id="remember_me" name="remember_me" type="checkbox" class="h-4 w-4 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded text-sm">
+                        <label for="remember_me" class="ml-2 block text-sm text-gray-900">
+                            Ingat saya
+                        </label>
+                    </div>
+
+                    <div class="text-sm">
+                        <a href="/forgot-password" class="font-medium underline">
+                            Lupa password?
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 flex-grow-0">
+                <button
+                    type="submit"
+                    class="w-full py-2 bg-klinik-primary text-white rounded-full font-semibold btn-focus-primary text-sm"
+                                        @click="localStorage.setItem('klinik-auth', 'true'); window.location.href='/'"
+                >
+                    LOGIN
+                </button>
+                <div class="text-sm text-center mt-3 md:hidden">Belum punya akun? <a href="/register" class="font-bold text-klinik-primary pl-1">Daftar</a></div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<div
+	class="fixed hidden inset-0 bg-gray-600 bg-opacity-50 overflow-y-auto h-full w-full"
+	id="konfirmasi-photo-consultation">
+    <!--modal content-->
+    <div class="relative top-20 mx-auto p-5 border w-96 shadow-lg rounded-md bg-white">   
+        <div>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="mt-3 text-left">
+            <div class="mt-8 space-y-6 flex-grow">
+                Apakah data konsultasi yang anda inputkan sudah benar?
+            </div>
+            <div class="mt-8 flex-grow-0">
+                <div class="text-center">
+                    <a href="#" data-dismiss="modal" class="btn btn-outline">Periksa Kembali</a>
+                    <a href="#" data-dismiss="modal" onClick="setWebCam()" id="lanjutkan-photo-consultation" class="btn btn-outline">Sudah</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>        </body>
