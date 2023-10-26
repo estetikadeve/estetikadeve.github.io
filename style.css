@@ -1,0 +1,56 @@
+[x-cloak] {
+    display: none !important;
+}
+
+.klinik-bottom-promo {
+    bottom: 12px !important;
+}
+
+@media (min-width: 640px) {
+    .klinik-bottom-promo {
+        bottom: 18px !important;
+    }
+}
+
+.bg-popup-chat-app {
+    background-image: url("/images/home/bg-chat-app-m.jpg");
+}
+
+@media (min-width: 640px) {
+    .bg-popup-chat-app {
+        background-image: url("/images/home/bg-chat-app-d.jpg");
+    }
+}
+
+.bg-popup-loyalty {
+    background-image: url("/images/home/bg-loyalty-m.jpg");
+}
+
+@media (min-width: 640px) {
+    .bg-popup-loyalty {
+        background-image: url("/images/home/bg-loyalty-d.jpg");
+    }
+}
+
+.scrollbox {
+    display: flex;
+    overflow-x: auto;
+    background-image: linear-gradient(to right, white, white),
+        linear-gradient(to right, white, white),
+        linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0)),
+        linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    background-position: left center, right center, left center, right center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
+    background-attachment: local, local, scroll, scroll;
+}
+
+/* swipper js */
+.swiper-slide {
+    height: auto !important;
+}
+.swiper-wrapper {
+    height: auto !important;
+}
+/* end swipper js */
